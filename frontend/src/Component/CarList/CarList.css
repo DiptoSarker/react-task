@@ -1,0 +1,53 @@
+.car-list-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.car-list-container h2 {
+  font-weight: 800;
+  font-size: 2.1rem;
+}
+
+.loading {
+  text-align: center;
+}
+
+.car-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.car-item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  min-height: 300px;
+}
+
+.car-item:hover {
+  transform: scale(1.05);
+}
+
+.car-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.car-details {
+  padding: 10px;
+}
+
+.car-name {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.car-rates {
+  color: #666;
+}
